@@ -5,8 +5,8 @@ Description of files :
 1. generator.py : Run this file once to generate a csv file that contains some rules. This file is for test purposes only and could be used for stress-testing, etc.
 
 2. firewall.py : The main file that processes our ipaddress rules and then performs a lookup. Usage :
-  a. python firewall.py path_to_csv_file.csv - This will run once and process the rules. 
-  b. python accept_packet --direction outbound/inbound --port 1-65135 --ipaddress 192.168.2.1 --protocol udp/tcp
+  - python firewall.py path_to_csv_file.csv - This will run once and process the rules. 
+  - python accept_packet --direction outbound/inbound --port 1-65135 --ipaddress 192.168.2.1 --protocol udp/tcp
   
   
  Note: Once the file is run with a csv file and queried for rule matches, it will continue to run to allow further processing of rules.
