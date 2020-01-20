@@ -25,7 +25,7 @@ Testcases that could be look into :
 
 
 Refinements :
-1. If we try to store all ipaddress in a lookup table, we can assumne that the memory footprint could be as high as 4gb (rule per ip is a byte at least). What is the best way to store ips - search-tree/graphs, etc
+1. If we try to store all ipaddress in a lookup table, we can assume that the memory footprint could be as high as 4gb (rule per ip is a byte at least). What is the best way to store ips - search-tree/graphs, etc
 
 2. Are there prexisting python modules that could be leveraged to help us with rule-storage and lookup.
 
