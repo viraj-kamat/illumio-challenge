@@ -16,7 +16,7 @@ Description of files :
 All processed python rules are stored in a python dictionary key:value pair. The memory footprint could be large but lookup time would be less. 
  
 Testcases that could be look into :
-1. Stress testing : A very large csv file with ~500k inputs could be generated to test the performance of the script. This script could simultaneiusly be called by multiple processes to perform a lookup - we want to identify how multiple incoming packets can be looked up without causing high latency
+1. Stress testing : A very large csv file with ~500k inputs could be generated to test the performance of the script. This script could simultaneously be called by multiple processes to perform a lookup - we want to identify how multiple incoming packets can be looked up without causing high latency
 
 2. Sanity checks : Is the port/protocol/ip-address of a valid type.
 
